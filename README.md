@@ -21,3 +21,16 @@ node_modules/
 
 ### Regla para ignorar
 Para incluir esta regla en el archivo .gitignore, simplemente se debe añadir la siguiente línea: "ignorado.txt"
+
+## Punto 3:
+
+Ambas direcciones son iguales porque el puntero almacena la dirección de la variable.
+
+### ¿Qué obtiene en el punto 4?
+
+Se obtine la dirección de memoria donde se almacena el puntero.
+
+### ¿Por qué la dirección del puntero es diferente de la dirección de la variable?
+Cada variable en C ocupa un espacio de memoria distinto.
+*var* ocupa una dirección en la memoria, donde se guarda su valor (42).
+*puntero* ocupa otra dirección en la memoria, donde se guarda la dirección de *var*.
